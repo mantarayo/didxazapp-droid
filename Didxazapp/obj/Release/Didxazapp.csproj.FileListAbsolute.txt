@@ -1,0 +1,12 @@
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\bin\Release\Didxazapp.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\bin\Release\Didxazapp.pdb
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\bin\Release\SimplesoftMX.Didxazapp.apk
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\bin\Release\SimplesoftMX.Didxazapp-Signed.apk
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\Didxazapp.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\Didxazapp.pdb
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\android\bin\SimplesoftMX.Didxazapp.apk
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\res\layout\main.xml
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\res\values\strings.xml
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\res\drawable\icon.png
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\R.cs.flag
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\uploadflags.txt

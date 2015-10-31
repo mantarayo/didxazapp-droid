@@ -1,0 +1,13 @@
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\Didxazapp.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\System.Core.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\System.Data.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\System.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\System.EnterpriseServices.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\System.Web.Services.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\Mono.Data.Tds.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\Mono.Security.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\assemblies\System.Transactions.dll

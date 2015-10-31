@@ -1,0 +1,7 @@
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\android\assets\Didxazapp.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\android\assets\Mono.Android.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\android\assets\mscorlib.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\android\assets\System.Core.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\android\assets\System.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\android\assets\System.Web.Services.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Release\android\assets\System.Xml.dll

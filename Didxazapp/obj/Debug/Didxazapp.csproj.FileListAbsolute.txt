@@ -1,0 +1,13 @@
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\bin\Debug\Didxazapp.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\bin\Debug\Didxazapp.pdb
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\bin\Debug\SimplesoftMX.Didxazapp.apk
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\bin\Debug\SimplesoftMX.Didxazapp-Signed.apk
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\Didxazapp.csprojResolveAssemblyReference.cache
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\Didxazapp.dll
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\Didxazapp.pdb
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\android\bin\SimplesoftMX.Didxazapp.apk
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\res\layout\main.xml
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\res\values\strings.xml
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\res\drawable\icon.png
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\R.cs.flag
+C:\Users\Gonzalo\Documents\develop projects\Didxazappdroid\Didxazapp\obj\Debug\uploadflags.txt

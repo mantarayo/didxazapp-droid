@@ -1,0 +1,4 @@
+Didxazapp.MainActivity, Didxazapp;md5f4bdcae6112a912a1ce1188ea5526c0e.MainActivity
+Didxazapp.MainActivity, Didxazapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f4bdcae6112a912a1ce1188ea5526c0e.MainActivity
+Didxazapp.MainActivity;md5f4bdcae6112a912a1ce1188ea5526c0e.MainActivity
+didxazapp.MainActivity;md5f4bdcae6112a912a1ce1188ea5526c0e.MainActivity
