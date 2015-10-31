@@ -45,7 +45,7 @@ namespace Didxazapp
             }
             else
             {
-                progress = ProgressDialog.Show(this, "Info", "Traduciendo...Espere.", true);
+                progress = ProgressDialog.Show(this, "Informacion", "Traduciendo...Espere.", true);
                 Thread.Sleep(500);
                 tra.quierofraseenzapotecoAsync(txt_espanio.Text);
                 tra.quierofraseenzapotecoCompleted += tra_quierofraseenzapotecoCompleted;
