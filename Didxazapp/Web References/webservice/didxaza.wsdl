@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://didxaza-service.azurewebsites.net/service" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://didxaza-service.azurewebsites.net/service" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Este web service permite traducir las palabras del idioma español al zapoteco por medio de una base de datos contenida en este sitio web,  permite además hacer una traduccion de todas las palabras de una frase (dependiendo del metodo usado),  es además un nuevo sistema el cuel puede consumirse desde cualquier dispositivo conectado a internet por lo cual es una herramienta poderosa para trabajar.   para más informacion: GONZALO SANTIAGO MARTINEZ. tel: 5517705752 al correo: myred.zapoteca@gmail.com ó visita: www.aprendezapoteco.blogspot.mx</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://didxaza-service.azurewebsites.net/service">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="quieropalabraenzapoteco">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="damelapalabraenezpañol" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="quieropalabraenzapotecoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="quieropalabraenzapotecoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="quierofraseenzapoteco">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="damelafraseenespañol" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="quierofraseenzapotecoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="quierofraseenzapotecoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cuantoycuando">
+        <s:complexType />
+      </s:element>
+      <s:element name="cuantoycuandoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cuantoycuandoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="quieropalabraenzapotecoSoapIn">
+    <wsdl:part name="parameters" element="tns:quieropalabraenzapoteco" />
+  </wsdl:message>
+  <wsdl:message name="quieropalabraenzapotecoSoapOut">
+    <wsdl:part name="parameters" element="tns:quieropalabraenzapotecoResponse" />
+  </wsdl:message>
+  <wsdl:message name="quierofraseenzapotecoSoapIn">
+    <wsdl:part name="parameters" element="tns:quierofraseenzapoteco" />
+  </wsdl:message>
+  <wsdl:message name="quierofraseenzapotecoSoapOut">
+    <wsdl:part name="parameters" element="tns:quierofraseenzapotecoResponse" />
+  </wsdl:message>
+  <wsdl:message name="cuantoycuandoSoapIn">
+    <wsdl:part name="parameters" element="tns:cuantoycuando" />
+  </wsdl:message>
+  <wsdl:message name="cuantoycuandoSoapOut">
+    <wsdl:part name="parameters" element="tns:cuantoycuandoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DidxazAppserviceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="quieropalabraenzapoteco">
+      <wsdl:input message="tns:quieropalabraenzapotecoSoapIn" />
+      <wsdl:output message="tns:quieropalabraenzapotecoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="quierofraseenzapoteco">
+      <wsdl:input message="tns:quierofraseenzapotecoSoapIn" />
+      <wsdl:output message="tns:quierofraseenzapotecoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="cuantoycuando">
+      <wsdl:input message="tns:cuantoycuandoSoapIn" />
+      <wsdl:output message="tns:cuantoycuandoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DidxazAppserviceSoap" type="tns:DidxazAppserviceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://didxaza-service.azurewebsites.net/service/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="quieropalabraenzapoteco">
+      <soap:operation soapAction="http://didxaza-service.azurewebsites.net/service/quieropalabraenzapoteco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="quierofraseenzapoteco">
+      <soap:operation soapAction="http://didxaza-service.azurewebsites.net/service/quierofraseenzapoteco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cuantoycuando">
+      <soap:operation soapAction="http://didxaza-service.azurewebsites.net/service/cuantoycuando" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DidxazAppserviceSoap12" type="tns:DidxazAppserviceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://didxaza-service.azurewebsites.net/service/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="quieropalabraenzapoteco">
+      <soap12:operation soapAction="http://didxaza-service.azurewebsites.net/service/quieropalabraenzapoteco" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="quierofraseenzapoteco">
+      <soap12:operation soapAction="http://didxaza-service.azurewebsites.net/service/quierofraseenzapoteco" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cuantoycuando">
+      <soap12:operation soapAction="http://didxaza-service.azurewebsites.net/service/cuantoycuando" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DidxazAppservice">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Este web service permite traducir las palabras del idioma español al zapoteco por medio de una base de datos contenida en este sitio web,  permite además hacer una traduccion de todas las palabras de una frase (dependiendo del metodo usado),  es además un nuevo sistema el cuel puede consumirse desde cualquier dispositivo conectado a internet por lo cual es una herramienta poderosa para trabajar.   para más informacion: GONZALO SANTIAGO MARTINEZ. tel: 5517705752 al correo: myred.zapoteca@gmail.com ó visita: www.aprendezapoteco.blogspot.mx</wsdl:documentation>
+    <wsdl:port name="DidxazAppserviceSoap" binding="tns:DidxazAppserviceSoap">
+      <soap:address location="http://didxaza-service.azurewebsites.net/service/didxaza.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DidxazAppserviceSoap12" binding="tns:DidxazAppserviceSoap12">
+      <soap12:address location="http://didxaza-service.azurewebsites.net/service/didxaza.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

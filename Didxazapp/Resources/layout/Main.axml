@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="Ingresa una frase en español"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <EditText
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="96.5dp"
+                android:id="@+id/Text1"
+                android:password="false"
+                android:phoneNumber="false" />
+            <TextView
+                android:text="Traducción en zapoteco del istmo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <EditText
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="96.3dp"
+                android:id="@+id/Text2"
+                android:phoneNumber="false"
+                android:password="false"
+                android:layout_marginBottom="0.0dp" />
+            <Button
+                android:text="Traducir"
+                android:layout_width="match_parent"
+                android:layout_height="58.5dp"
+                android:id="@+id/button1" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
